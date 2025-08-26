@@ -202,6 +202,19 @@
   width: 100%;
   background: #27194C;
   color: white;
+  padding-top: 100px;
+}
+
+.intouch {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.line{
+  border: 3px solid #674CAE;
+  width: 19%;
+  margin: auto;
 }
 
 .contact-info {

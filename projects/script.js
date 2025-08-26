@@ -14,3 +14,8 @@ overlay.addEventListener('click', () => {
     overlay.classList.remove('active');
 });
 
+const textarea = document.getElementById('message');
+textarea.addEventListener('input', () => {
+    textarea.style.height = 'auto'; // reset height
+    textarea.style.height = textarea.scrollHeight + 'px'; // adjust to content
+});

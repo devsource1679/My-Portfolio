@@ -263,7 +263,7 @@
 
 .hero-image2 {
   position: absolute;
-  background-image: url(../image/PNER5841.JPG);
+  background-image: url(../image/new\ profiile\ image1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -456,7 +456,7 @@
 
 .second-web-image {
   position: relative;
-  background-image: url(../image/PNER5841.JPG);
+  background-image: url(../image/new\ profiile\ image1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -482,14 +482,14 @@
 } */
 
 .Know-me {
-  padding: 15px 0px;
+  padding: 10px 0px;
   font-size: 30px;
   font-weight: 600;
   color: #27194C;
 }
 
 .toHelp {
-  padding: 15px 0px;
+  padding: 10px 0px;
   font-size: 25px;
   font-weight: 600;
   color: #27194C;
@@ -511,6 +511,18 @@
   background-color: #674CAE;
   transition: 0.5s ease;
 }
+
+/* .whatsapp{
+  display: flex;
+  margin: auto;
+  position: sticky;
+  color: green;
+  width: 90%;
+}
+.fa-whatsapp{
+   color: green;
+   font-size: 30px;
+} */
 
 @media(max-width:980px) {
   .hero2-wrapper {

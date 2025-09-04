@@ -391,6 +391,10 @@
 .footer-brands div {
   margin: 10px;
 }
+.fa-brands{
+  color: black;
+  font-size: 20px;
+}
 
 .footer-hr {
   width: 90%;

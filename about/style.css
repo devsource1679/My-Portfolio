@@ -198,10 +198,11 @@
 
 
 /* hero2 */
-.hero{
+.hero {
   width: 100%;
   padding-top: 60px;
 }
+
 .hero2-wrapper-container {
   width: 50%;
   margin: auto;
@@ -211,7 +212,7 @@
 .hero2-text-wrapper {
   width: 50%;
   margin: auto;
- 
+
 }
 
 .text {
@@ -242,7 +243,7 @@
 
 .second-web-image {
   position: relative;
-  background-image: url(../image/PNER5841.JPG);
+  background-image: url(../image/new\ profiile\ image1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,6 +252,7 @@
   top: 25px;
   right: -25px;
   border-radius: 10px;
+  border: thin solid #27194C;
 }
 
 .hero-wrapper::before {
@@ -303,6 +305,7 @@
     width: 90%;
     margin: auto;
     gap: 0px;
+    padding-top: 60px;
   }
 
   .hero2-wrapper-container {
@@ -364,6 +367,11 @@
 
 .footer-brands div {
   margin: 10px;
+}
+
+.fa-brands {
+  color: black;
+  font-size: 20px;
 }
 
 .footer-hr {

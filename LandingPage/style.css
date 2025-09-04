@@ -258,7 +258,7 @@
 
 .hero-image2 {
   position: absolute;
-  background-image: url(../image/new\ profiile\ image1.jpg);
+  background-image: url(../image/profile\ image.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -399,7 +399,7 @@
 }
 
 .second-image {
-  background-image: url(../image/new\ profiile\ image1.jpg);
+  background-image: url(../image/profile\ image.webp);
   height: 400px;
   width: 95%;
   left: -25px;
@@ -462,7 +462,7 @@
 
 .second-web-image {
   position: relative;
-  background-image: url(../image/Wavy_Tech-08_Single-05.jpg);
+  background-image: url(../image/Wavy_Tech-08_Single-05.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

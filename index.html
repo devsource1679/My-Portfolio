@@ -17,7 +17,7 @@
   <!-- web nav -->
   <nav class="nav">
     <div class="navwrapper">
-      <div><a href="./index.html">src ltd</a></div>
+      <div><a href="./index.html">Src</a></div>
       <div class="homediv">
         <div class="inner-homediv">
           <ul>
@@ -44,7 +44,9 @@
   </nav>
 
 
-
+  <div>
+    <img src="" alt="">
+  </div>
 
   <div class="menu">
     <ul>
@@ -245,13 +247,14 @@
               <div>Firebase</div>
               <div>Javascript</div>
             </div>
-            <div class="live-demo"><a href="https://planora-586o.onrender.com"> Live Demo <i class='bxr  bx-arrow-out-up-right-square'></i></a></div>
+            <div class="live-demo"><a href="https://planora-586o.onrender.com"> Live Demo <i
+                  class='bxr  bx-arrow-out-up-right-square'></i></a></div>
           </div>
         </div>
         <div class="project-card">
-         <picture>
-           <img src="./image/Demofinance.webp" alt="" loading="lazy">
-         </picture>
+          <picture>
+            <img src="./image/Demofinance.webp" alt="" loading="lazy">
+          </picture>
           <div class="card-content-div">
             <div class="First-content ">
               <h3>E- E-commerce Platform</h3>
@@ -334,22 +337,26 @@
       <div class="form">
         <p>Leave A Message</p>
         <div class="message-box">
-          <span class="message-input"> Name:</span>
-          <div><input type="name" placeholder="John Doe"></div>
-          <span class="message-input">Email:</span>
-          <div><input type="Email" placeholder="joy@gmail.com"></div>
-          <span class="message-input">Phone Number:</span>
-          <div><input type="Number" placeholder="08050682667"></div>
+          <form action="">
+            <span class="message-input"> Name:</span>
+            <div><input type="name" placeholder="John Doe" class="name" required></div>
+            <span class="message-input">Email:</span>
+            <div><input type="Email" placeholder="joy@gmail.com" class="email" required></div>
+            <span class="message-input">Phone Number:</span>
+            <div><input type="Number" placeholder="08050682667" class="number"></div>
 
-          <span class="message-input">Message:</span>
-          <div class="chat-container">
-            <div class="chat-input-container">
-              <textarea id="message" placeholder=""></textarea>
+            <span class="message-input">Message:</span>
+            <div class="chat-container">
+              <div class="chat-input-container">
+                <textarea id="message" placeholder="" class="message" required></textarea>
+              </div>
             </div>
-          </div>
-          <div class="form-button">
-            <button>Send Meassage</button>
-          </div>
+            <div class="form-button">
+              <button type="submit">Send Meassage</button>
+            </div>
+
+          </form>
+          <p class="feedback"></p>
         </div>
 
       </div>
@@ -367,7 +374,7 @@
 
     <div class="footer-wraper">
       <div>
-        <a href="">src Ltd</a>
+        <a href="">Src</a>
 
       </div>
       <div>
@@ -376,7 +383,9 @@
       <div class="footer-brands">
         <div><a href="https://github.com/devsource1679"><i class="fa-brands fa-github"></i></a></div>
         <!-- <div> <i class='bxr  bx-arrow-out-up-right-square'></i></div> -->
-        <div><a href="https://www.linkedin.com/in/dauda-sodiq-6603b3190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a></div>
+        <div><a
+            href="https://www.linkedin.com/in/dauda-sodiq-6603b3190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+              class="fa-brands fa-linkedin"></i></a></div>
         <div><a href="https://x.com/officialsource0?s=21"><i class="fa-brands fa-square-x-twitter"></i></a></div>
         <div><a href="https://www.instagram.com/official_source123?igsh=MTIxNXVuOWg4bmF5Mw%3D%3D&utm_source=qr"><i
               class="fa-brands fa-square-instagram"></i></a></div>
@@ -384,12 +393,12 @@
       </div>
     </div>
     <hr class="footer-hr">
-    <div class="all-right">© 2025 SrcLtd. All rights reserved.</div>
+    <div class="all-right">© 2025 Src. All rights reserved.</div>
   </div>
 
 
 
-  <script src="./LandingPage/script.js"></script>
+  <script type="module" src="./LandingPage/script.js"></script>
 </body>
 
 </html>

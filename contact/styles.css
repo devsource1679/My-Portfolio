@@ -2,10 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  /* transition: 0.9s ease-in-out; */
+  font-family: "Poppins", sans-serif;
 }
 
 .nav {
@@ -13,12 +10,14 @@
   width: 100%;
   padding: 20px 0px;
   background-color: #EDEBF1;
-  /* the secondary color*/
   position: fixed;
   z-index: 1000;
   top: 0px;
 }
 
+.logo a{
+  text-decoration: none;
+}
 .navwrapper {
   display: flex;
   justify-content: space-between;
@@ -246,11 +245,12 @@
   margin: auto;
 }
 
-.line{
+.line {
   border: 3px solid #674CAE;
   width: 19%;
   margin: auto;
 }
+
 .contact-text p {
   width: 40%;
   margin: auto;
@@ -270,6 +270,7 @@
 .details a {
   color: rgba(245, 222, 179, 0.503);
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .message-box {
@@ -278,6 +279,7 @@
   margin: auto;
   padding: 10px;
   border: 2px solid #674CAE;
+  box-shadow: 0px 5px 15px #674CAE
 }
 
 .message-input {
@@ -428,10 +430,11 @@ textarea {
   /* padding: 10px 0px; */
 }
 
-.fa-brands{
+.fa-brands {
   color: black;
   font-size: 20px;
 }
+
 .footer-brands div {
   margin: 10px;
 }

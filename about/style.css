@@ -2,10 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  /* transition: 0.9s ease-in-out; */
+  font-family: "Poppins", sans-serif;
 }
 
 .nav {
@@ -13,7 +10,6 @@
   width: 100%;
   padding: 20px 0px;
   background-color: #EDEBF1;
-  /* the secondary color*/
   position: fixed;
   z-index: 1000;
   top: 0px;
@@ -29,6 +25,9 @@
   gap: 0px;
 }
 
+.logo a{
+  text-decoration: none;
+}
 .homediv ul {
   display: flex;
   align-items: center;
@@ -206,13 +205,32 @@
 .hero2-wrapper-container {
   width: 50%;
   margin: auto;
-  /* padding-top: 50px; */
+  animation: heroAminmation 2s  0.1s  1;
 }
+
+@keyframes heroAminmation {
+  from{
+    margin-left: -100px;
+  }
+  to{
+    margin-left: 0px;
+  }
+}
+
 
 .hero2-text-wrapper {
   width: 50%;
   margin: auto;
+  animation: textAnimation 2s 0.1s 1;
+}
 
+@keyframes textAnimation {
+  from{
+    margin-right: -100px;
+  }
+  to{
+   margin-right: 0px;
+  }
 }
 
 .text {
@@ -255,13 +273,9 @@
   border: thin solid #27194C;
 }
 
-.hero-wrapper::before {
-  transition: 0.9s ease-in;
-}
-
-.hero-wrapper::after {
-  width: 95%;
-  transition: 0.9s ease-in-out;
+.second-web-image:hover{
+  transform: scale(1.1);
+  transition: all 0.9s ease;
 }
 
 /* .mobile-image{
@@ -273,6 +287,7 @@
   font-size: 30px;
   font-weight: 600;
   color: #27194C;
+  text-align: center;
 }
 
 .toHelp {
@@ -280,6 +295,7 @@
   font-size: 25px;
   font-weight: 600;
   color: #27194C;
+  text-align: center;
 }
 
 .HireMe a {
@@ -292,12 +308,14 @@
 
 .HireMe {
   padding: 20px 0px;
+  text-align: center;
 }
 
 .HireMe a:hover {
   background-color: #674CAE;
   transition: 0.5s ease;
 }
+
 
 @media(max-width:980px) {
   .hero2-wrapper {
@@ -340,13 +358,11 @@
 
 /* footer...................... */
 .footer-container {
-  /* display: flex; */
   align-items: center;
   margin: auto;
   width: 100%;
   background: #EDEBF1;
   margin-top: 30px;
-  /* border: 2px solid red; */
 }
 
 .footer-wraper {
@@ -356,7 +372,6 @@
   width: 90%;
   margin: auto;
   padding: 15px 0px;
-  /* border: 2px solid blue; */
 }
 
 .footer-brands {

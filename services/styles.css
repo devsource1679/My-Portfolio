@@ -320,16 +320,20 @@
   }
 }
 
-@media(max-width:379px) {
+
+@media(max-width:390px){
+   .grid-container{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   }
+}
+
+/* @media(max-width:379px) {
   .card {
     width: 100%;
     margin: auto;
   }
-
-  .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-}
+  
+} */
 
 /* footer...................... */
 .footer-container {

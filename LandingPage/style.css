@@ -434,13 +434,18 @@
 
   .inner-ul ul li {
     margin: 10px;
+    
   }
 
   .inner-ul ul li.hire-me {
-    padding: 10px 10px;
-    font-size: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
   }
-
+  .inner-ul ul li.hire-me a{
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
   .Learn a {
     padding: 10px 15px;
     font-size: 18px;
@@ -765,16 +770,20 @@
   }
 }
 
+@media(max-width:390px){
+   .grid-container{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   }
+}
+
 @media(max-width:379px) {
   .card {
     width: 100%;
     margin: auto;
   }
-
-  .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
+  
 }
+
 
 
 /* RECENT PROJECT */
